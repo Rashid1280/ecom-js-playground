@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Card</title>
+</head>
+<body>
+<h1>DOM Manipulation</h1>
+  <h1 id="productName">Rajesh</h1>
+  <p id="price">10</p>
+  <p id="stock" class="revenue">123456789</p>
+  <p  class="revenue">100000000</p>
+  <p  class="revenue">20000000</p>
+
+  
+<script>
+
+     let naam = document.getElementById("productName");
+     naam.textContent = "koothrapalli";
+
+     let season = document.querySelector("#price");
+     season.textContent = ("no10")
+     season.style.color = "red"
+ 
+     let rev = document.querySelectorAll(".revenue");
+    //  rev[0].textContent = "0rs"
+
+    rev.forEach(item =>{
+        item.textContent="No Revenue"
+    })
+
+</script>
+</body>
+</html>
