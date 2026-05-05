@@ -34,3 +34,28 @@ let cart1 = ['orange', 'banana', 'kiwi'];
 let cart2 = ['apple', 'banana', 'grape'];
 let cart3 = ['pineapple', 'mango', 'kiwi']
 cartMerger(cart1,cart2,cart3)
+
+//DESTRUCTURING
+
+const order = {
+  orderId: "ORD-2026-001",
+  customer: "Rashid",
+  items: ["Leather Bag", "Wallet", "Belt"],
+  total: 1899,
+  discount: 10,
+  status: "confirmed"
+};
+//    arr= Object.values(order);
+//    console.log(arr);
+   
+const {orderId,customer, items, total,discount} = order;
+console.log(`Order no. : ${orderId}`);
+console.log(`Name of the customer : ${customer}`);
+console.log("Products for purchanse", items);
+let disc = (total*discount)/100;
+let finalPrice = total-disc;
+console.log(`Your total payment is ${finalPrice}`);
+
+
+
+ 
