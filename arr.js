@@ -47,3 +47,35 @@ discount.forEach(item => {
     console.log(`Product: ${item.name} | Price :Rs${item.price}`);
     
 });
+
+// DESTRUCTURING
+ apiResponse = [
+  "ORD-2026-007",
+  "Rashid",
+  ["Shoes", "Belt", "Wallet"],
+  1599,
+  "shipped"
+];
+// Your tasks:
+
+// Destructure it into named variables — skip nothing
+// Skip the price, only get order id, name, items and status
+// Get only the first item from the items array using nested destructuring
+// Print a clean receipt using the destructured values
+
+// let  [id,name,products,price,status] = apiResponse;
+
+
+// let  [id,name,products, ,status] = apiResponse;
+
+let  [id,name,[one] ] = apiResponse;
+
+console.log(`order id is` ,id);
+console.log(`name of customer is `,name);
+// console.log(`he purchased `,products);
+// console.log(`total of `,price);
+// console.log(`order is `,status);
+console.log(`first product is `,one);
+
+
+
