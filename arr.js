@@ -24,3 +24,26 @@ let final = fruits.filter((item)=>{
  return item !== 'grape';
 })
 console.log(final);
+
+// FOREACH AND MAP() 
+
+const user = [
+    {name : "bottle", price : 100},
+    {name : "glass", price : 50},
+    {name : "pillow", price : 150},
+    {name : "comb", price : 20},
+    {name : "camera", price : 1000}
+
+];
+const discount = user.map((item)=>{
+let disc = (item.price * 10)/100;
+let final = item.price-disc;
+return {name : item.name, price: final}
+})
+console.log(discount);
+
+
+discount.forEach(item => {
+    console.log(`Product: ${item.name} | Price :Rs${item.price}`);
+    
+});
