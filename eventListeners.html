@@ -66,14 +66,28 @@
 
 let btn = document.querySelectorAll(".add-btn")
 let counts = document.querySelector('#count')
-
+let search = document.querySelector("#search")
+let card = document.querySelectorAll(".card")
 
 btn.forEach((item)=>{
     item.addEventListener("click" , (event)=>{
-     console.log(event);
-    counts.textContent++
+    counts.textContent = Number(counts.textContent) +1;
 })     
     })
+
+search.addEventListener("keyup",(event)=>{
+console.log(event.key);
+let value = search.value.toLowerCase();
+card.forEach((items)=>{
+  let productName = items.querySelector('h3').textContent.toLowerCase()
+
+  if(productName.includes(value)){
+items.style.display = "block";  }else{
+  items.style.display = "none";
+}
+})
+
+})
     
 
   </script>
