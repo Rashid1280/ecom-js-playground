@@ -6,7 +6,6 @@ Each folder contains a standalone project with its own HTML, CSS, and JavaScript
 * 01-todo-app/ - Task management with local storage.
 * 02-weather-dashboard/ - Fetching live data from third-party APIs.
 * 03-calculator/ - Modern grid layout with complex math logic.
-* 04-whack-a-mole/ - Timing events, CSS animations, and score tracking.
 
 ## 🛠️ Tech Stack
 
