@@ -4,7 +4,7 @@ A collection of small, fun, and experimental JavaScript projects built to master
 Each folder contains a standalone project with its own HTML, CSS, and JavaScript files.
 
 * 01-todo-app/ - Task management with local storage.
-* 02-weather-dashboard/ - Fetching live data from third-party APIs.
+
 
 
 ## 🛠️ Tech Stack
