@@ -3,7 +3,6 @@ A collection of small, fun, and experimental JavaScript projects built to master
 ## 📂 Repository Structure
 Each folder contains a standalone project with its own HTML, CSS, and JavaScript files.
 
-* 01-todo-app/ - Task management with local storage.
 
 
 
