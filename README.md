@@ -28,11 +28,3 @@ Each folder contains a standalone project with its own HTML, CSS, and JavaScript
    2. Open any project folder.
    3. Launch the index.html file directly in your browser, or use the VS Code Live Server extension.
 
-------------------------------
-To help me personalize this README, could you share:
-
-* The exact names of a few projects you have built?
-* Any specific JS concepts you focused on (e.g., API fetching, local storage)?
-* Your GitHub username so I can update the clone link?
-
-
